@@ -1,5 +1,9 @@
 package Array;
 
+/**
+ *
+ * 算法 :如何找出数组第二大的数
+ */
 public class SecondMax {
     public  static int SecondMax(int a[]){
         int max=a[0];
