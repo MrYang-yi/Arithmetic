@@ -1,4 +1,4 @@
-package LeetCodeDay01;
+package LeetCode;
 
 /**
  * topic: 最长回文子串
@@ -26,7 +26,7 @@ public class LongestPalindrome_05 {
             }
 
         }
-        return s.substring(start, end + 1);
+        return s.substring(start, end+1);
     }
 
     private static int King(String s, int left, int right) {

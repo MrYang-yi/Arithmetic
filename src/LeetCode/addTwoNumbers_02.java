@@ -1,6 +1,4 @@
-package LeetCodeDay01;
-
-import java.util.List;
+package LeetCode;
 
 /**
  * topic:链表和

@@ -1,8 +1,5 @@
-package LeetCodeDay01;
+package LeetCode;
 
-import sun.security.util.Length;
-
-import javax.xml.transform.sax.SAXTransformerFactory;
 import java.util.HashMap;
 
 /**
