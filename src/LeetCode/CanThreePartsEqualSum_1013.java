@@ -12,7 +12,7 @@ package LeetCode;
  * 输出：true
  * 解释：0 + 2 + 1 = -6 + 6 - 7 + 9 + 1 = 2 + 0 + 1
  */
-public class CanThreePartsEqualSum {
+public class CanThreePartsEqualSum_1013 {
     public boolean canThreePartsEqualSum(int[] A) {
         if (A == null || A.length < 3) return false;
         int sum = 0;
@@ -47,7 +47,7 @@ public class CanThreePartsEqualSum {
         int[] a = {0, 2, 1, -6, 6, -7, 9, 1, 2, 0, 1};
         //int[] b = {0, 2, 1, -6, 6, 7, 9, -1, 2, 0, 1};
        // int[] c = {3, 3, 6, 5, -2, 2, 5, 1, -9, 4};
-        boolean flag1 = new CanThreePartsEqualSum().canThreePartsEqualSum(a);
+        boolean flag1 = new CanThreePartsEqualSum_1013().canThreePartsEqualSum(a);
        // boolean flag2 = new CanThreePartsEqualSum().canThreePartsEqualSum(b);
        // boolean flag3 = new CanThreePartsEqualSum().canThreePartsEqualSum(c);
         System.out.println(flag1);
