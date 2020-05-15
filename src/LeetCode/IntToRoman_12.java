@@ -1,8 +1,5 @@
 package LeetCode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * 罗马数字包含以下七种字符： I， V， X， L，C，D 和 M。
  * <p>
@@ -21,7 +18,7 @@ import java.util.List;
  * 输出: "LVIII"
  * 解释: L = 50, V = 5, III = 3.
  */
-public class IntToRoman {
+public class IntToRoman_12 {
 
     public String intToRoman(int num) {
         String[] thousands = {"", "M", "MM", "MMM"};
@@ -35,8 +32,8 @@ public class IntToRoman {
 
 
     public static void main(String[] args) {
-        String s = new IntToRoman().intToRoman(58);
-        String l = new IntToRoman().intToRoman(1994);
+        String s = new IntToRoman_12().intToRoman(58);
+        String l = new IntToRoman_12().intToRoman(1994);
         System.out.println(s);
         System.out.println(l);
     }
