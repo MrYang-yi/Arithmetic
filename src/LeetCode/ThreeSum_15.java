@@ -1,7 +1,8 @@
 package LeetCode;
 
-import java.security.Key;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * topic:三数之和
@@ -22,36 +23,38 @@ public class ThreeSum_15 {
         if (nums == null || nums.length < 3) return list;
         Arrays.sort(nums);
         for (int i = 0; i < nums.length; i++) {
-            if(nums[i]>0) break;
-            if(i>0&&nums[i]==nums[i-1]) continue;
-            int L=i+1;
-            int R=nums.length-1;
-            int target=-nums[i];
-            while(L<R){
-                if(nums[L]+nums[R]==target){
-                   List<Integer> curr = new ArrayList<>();
+            if (nums[i] > 0) break;
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+            int L = i + 1;
+            int R = nums.length - 1;
+            int target = -nums[i];
+            while (L < R) {
+                if (nums[L] + nums[R] == target) {
+                    List<Integer> curr = new ArrayList<>();
                     curr.add(nums[i]);
                     curr.add(nums[L]);
                     curr.add(nums[R]);
                     list.add(curr);
-                    while(L<R&&nums[L]==nums[L+1]) L++;
-                    while(L<R&&nums[R]==nums[R-1]) R--;
+                    while (L < R && nums[L] == nums[L + 1]) L++;
+                    while (L < R && nums[R] == nums[R - 1]) R--;
                     L++;
                     R--;
-                }else if(nums[L]+nums[R]<target){
+                } else if (nums[L] + nums[R] < target) {
                     L++;
-                }else{
+                } else {
                     R--;
                 }
             }
         }
         return list;
+
     }
 
-    public static void main(String[] args) {
-        int[] nums = {-2,0,1,1,2};
+   public static void main(String[] args) {
+        int[] nums = {-2, 0, 1, 1, 2};
         List<List<Integer>> list = new ThreeSum_15().threeSum(nums);
         System.out.println(list);
 
     }
+
 }
