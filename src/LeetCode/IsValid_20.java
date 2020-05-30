@@ -29,7 +29,7 @@ import java.util.Stack;
  * 输入: "{[]}"
  * 输出: true
  */
-public class IsValid {
+public class IsValid_20 {
 
     public boolean isValid(String s) {
         HashMap<Character, Character> map = new HashMap<>();
@@ -52,7 +52,7 @@ public class IsValid {
     }
 
     public static void main(String[] args) {
-        boolean flag = new IsValid().isValid("()[]{}");
+        boolean flag = new IsValid_20().isValid("()[]{}");
         System.out.println(flag);
     }
 }
