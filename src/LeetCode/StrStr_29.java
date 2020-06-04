@@ -20,7 +20,7 @@ package LeetCode;
  * 当 needle 是空字符串时，我们应当返回什么值呢？这是一个在面试中很好的问题。
  * 对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 strstr() 以及 Java的 indexOf() 定义相符。
  */
-public class StrStr {
+public class StrStr_29 {
     public int strStr(String haystack, String needle) {
         int L = needle.length();
         int n = haystack.length();
@@ -34,7 +34,7 @@ public class StrStr {
 
 
     public static void main(String[] args) {
-        int p=new StrStr().strStr("hello","ll");
+        int p=new StrStr_29().strStr("hello","ll");
         System.out.println(p);
     }
 }
