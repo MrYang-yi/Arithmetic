@@ -31,7 +31,7 @@ class ListNode {
 class addTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyhead = new ListNode(0);
-        ListNode head=dummyhead;
+        ListNode head = dummyhead;
         int add = 0;
         while (l1 != null || l2 != null || add != 0) {
             if (l1 != null) {
@@ -62,7 +62,7 @@ class addTwoNumbers {
         node4.setNext(node5);
         node5.setNext(node6);
         ListNode l2 = node4;
-        ListNode l3 = new addTwoNumbers().addTwoNumbers(l1,l2);
+        ListNode l3 = new addTwoNumbers().addTwoNumbers(l1, l2);
         while (l3 != null) {
             System.out.print(l3.val + " ");
             l3 = l3.next;
