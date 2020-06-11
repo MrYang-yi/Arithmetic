@@ -57,7 +57,7 @@ public class test07 {
         for (int i = 1; i < length; i++) {
             int preorderVal = preorder[i];  //遍历得到前序遍历每个值
             TreeNode node = stack.peek(); //返回栈顶元素
-            if (node.val != inorder[inorderIndex]) {   // 栈顶元素的值  ！= 中序遍历的值
+            if (node.val != inorder[inorderIndex]) {   // 栈顶元素的值  ！= 中序遍历的值9
                 node.left = new TreeNode(preorderVal);   //栈顶元素的左节点 == 中序遍历的值
                 stack.push(node.left);             //左节点放进 栈
             } else {           // 这一步非常关键 就是找出它的右节点
