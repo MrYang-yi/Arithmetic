@@ -6,14 +6,14 @@ package Sword_Point_To_Offer;
  * B是A的子结构， 即 A中有出现和B相同的结构和节点值。
  * 例如:
  * 给定的树 A:
- *     3
- *    / \
- *   4   5
- *  / \
+ * 3
+ * / \
+ * 4   5
+ * / \
  * 1   2
  * 给定的树 B：
  * <p>
- *   4
+ * 4
  * /  \
  * 1  2
  * 返回 true，因为 B 与 A 的一个子树拥有相同的结构和节点值。
@@ -29,7 +29,7 @@ package Sword_Point_To_Offer;
 public class test26 {
     public boolean isSubStructure(TreeNode A, TreeNode B) {
         return (A != null && B != null)
-                && recur(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B);
+                && (recur(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B));
     }
 
     boolean recur(TreeNode A, TreeNode B) {
@@ -47,13 +47,13 @@ public class test26 {
         TreeNode node5 = new TreeNode(4);
         TreeNode node6 = new TreeNode(1);
         TreeNode node7 = new TreeNode(2);
-        root.left=node1;
-        root.right=node2;
-        node1.left=node3;
-        node1.right=node4;
-        node5.left=node6;
-        node5.right=node7;
-        boolean flag=new test26().isSubStructure(root,node5);
+        root.left = node1;
+        root.right = node2;
+        node1.left = node3;
+        node1.right = node4;
+        node5.left = node6;
+        node5.right = node7;
+        boolean flag = new test26().isSubStructure(root, node5);
         System.out.println(flag);
     }
 
