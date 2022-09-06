@@ -1,4 +1,4 @@
-package HighFrequence.swordPointToOffer;
+package LeetCode.editor.cn.HighFrequence.swordPointToOffer;
 
 /**
  * 面试题04. 二维数组中的查找

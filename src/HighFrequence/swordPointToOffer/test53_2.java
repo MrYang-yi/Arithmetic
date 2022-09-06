@@ -1,4 +1,4 @@
-package HighFrequence.swordPointToOffer;
+package LeetCode.editor.cn.HighFrequence.swordPointToOffer;
 
 /**
  * 剑指 Offer 53 - II. 0～n-1中缺失的数字

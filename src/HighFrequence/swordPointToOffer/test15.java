@@ -1,4 +1,4 @@
-package HighFrequence.swordPointToOffer;
+package LeetCode.editor.cn.HighFrequence.swordPointToOffer;
 
 /**
  * 面试题15. 二进制中1的个数

@@ -1,4 +1,4 @@
-package HighFrequence.swordPointToOffer;
+package LeetCode.editor.cn.HighFrequence.swordPointToOffer;
 
 /**
  * 面试题17. 打印从1到最大的n位数

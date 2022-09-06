@@ -3,14 +3,69 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc14_LongestCommonPrefix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc14_LongestCommonPrefix.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com14" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc14_LongestCommonPrefix.java" />
+              <option name="titleSlug" value="longest-common-prefix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc15_ThreeSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc15_ThreeSum.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com15" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc15_ThreeSum.java" />
+              <option name="titleSlug" value="3sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc16_ThreeSumClosest.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc16_ThreeSumClosest.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com16" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc16_ThreeSumClosest.java" />
+              <option name="titleSlug" value="3sum-closest" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/HighFrequence/Hot100/leetcode/editor/cn/lc11_ContainerWithMostWater.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc11_ContainerWithMostWater.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com11" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/HighFrequence/Hot100/leetcode/editor/cn/lc11_ContainerWithMostWater.java" />
+              <option name="titleSlug" value="container-with-most-water" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/HighFrequence/Hot100/leetcode/editor/cn/lc14_LongestCommonPrefix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc14_LongestCommonPrefix.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com14" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc14_LongestCommonPrefix.java" />
+              <option name="titleSlug" value="longest-common-prefix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/24SwapNodesInPairs.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com24" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc16_ThreeSumClosest.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com16" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/24SwapNodesInPairs.java" />
-              <option name="titleSlug" value="swap-nodes-in-pairs" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc16_ThreeSumClosest.java" />
+              <option name="titleSlug" value="3sum-closest" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -69,6 +124,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/HighFrequence/Hot100/leetcode/editor/cn/lc10_RegularExpressionMatching.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc10_RegularExpressionMatching.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com10" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/HighFrequence/Hot100/leetcode/editor/cn/lc10_RegularExpressionMatching.java" />
+              <option name="titleSlug" value="regular-expression-matching" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/MergeKSortedLists.java">
           <value>
             <LeetcodeEditor>
@@ -105,10 +171,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/[15]ThreeSum.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/[15]ThreeSum.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc15_ThreeSum.md" />
               <option name="frontendQuestionId" value="leetcode-cn.com15" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/[15]ThreeSum.java" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc15_ThreeSum.java" />
               <option name="titleSlug" value="3sum" />
             </LeetcodeEditor>
           </value>
@@ -127,10 +193,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/[16]最接近的三数之和.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc16_ThreeSumClosest.md" />
               <option name="frontendQuestionId" value="leetcode-cn.com16" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/.java" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc16_ThreeSumClosest.java" />
               <option name="titleSlug" value="3sum-closest" />
             </LeetcodeEditor>
           </value>
@@ -138,10 +204,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/[1]两数之和.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/[1]两数之和.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/lc1_TwoSum.md" />
               <option name="frontendQuestionId" value="leetcode-cn.com1" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/[1]两数之和.java" />
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/lc1_TwoSum.java" />
               <option name="titleSlug" value="two-sum" />
             </LeetcodeEditor>
           </value>
@@ -204,10 +270,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/[2]两数相加.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/[2]两数相加.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/lc2_AddTwoNumbers.md" />
               <option name="frontendQuestionId" value="leetcode-cn.com2" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/[2]两数相加.java" />
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/lc2_AddTwoNumbers.java" />
               <option name="titleSlug" value="add-two-numbers" />
             </LeetcodeEditor>
           </value>
@@ -275,6 +341,28 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/[7]整数反转.java" />
               <option name="titleSlug" value="reverse-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/lc1_TwoSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/lc1_TwoSum.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/lc1_TwoSum.java" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/lc2_AddTwoNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/lc2_AddTwoNumbers.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/lc2_AddTwoNumbers.java" />
+              <option name="titleSlug" value="add-two-numbers" />
             </LeetcodeEditor>
           </value>
         </entry>
