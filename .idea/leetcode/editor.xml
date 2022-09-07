@@ -3,6 +3,61 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[4]寻找两个正序数组的中位数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc4_MedianOfTwoSortedArrays.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com4" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc4_MedianOfTwoSortedArrays.java" />
+              <option name="titleSlug" value="median-of-two-sorted-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[6]Z 字形变换.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/[6]Z 字形变换.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com6" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[6]Z 字形变换.java" />
+              <option name="titleSlug" value="zigzag-conversion" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[7]整数反转.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/[7]整数反转.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com7" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[7]整数反转.java" />
+              <option name="titleSlug" value="reverse-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[8]字符串转换整数 (atoi).java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/[8]字符串转换整数 (atoi).md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com8" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[8]字符串转换整数 (atoi).java" />
+              <option name="titleSlug" value="string-to-integer-atoi" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[9]回文数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/[9]回文数.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com9" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[9]回文数.java" />
+              <option name="titleSlug" value="palindrome-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc14_LongestCommonPrefix.java">
           <value>
             <LeetcodeEditor>
@@ -33,6 +88,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc16_ThreeSumClosest.java" />
               <option name="titleSlug" value="3sum-closest" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc4_MedianOfTwoSortedArrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc4_MedianOfTwoSortedArrays.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com4" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc4_MedianOfTwoSortedArrays.java" />
+              <option name="titleSlug" value="median-of-two-sorted-arrays" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -325,10 +391,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/[6]Z 字形变换.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/[6]Z 字形变换.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/[6]Z 字形变换.md" />
               <option name="frontendQuestionId" value="leetcode-cn.com6" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/[6]Z 字形变换.java" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[6]Z 字形变换.java" />
               <option name="titleSlug" value="zigzag-conversion" />
             </LeetcodeEditor>
           </value>
@@ -336,10 +402,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/[7]整数反转.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/[7]整数反转.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/[7]整数反转.md" />
               <option name="frontendQuestionId" value="leetcode-cn.com7" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/[7]整数反转.java" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[7]整数反转.java" />
               <option name="titleSlug" value="reverse-integer" />
             </LeetcodeEditor>
           </value>
@@ -369,10 +435,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/lc9_PalindromeNumber.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/lc9_PalindromeNumber.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/[9]回文数.md" />
               <option name="frontendQuestionId" value="leetcode-cn.com9" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/lc9_PalindromeNumber.java" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/[9]回文数.java" />
               <option name="titleSlug" value="palindrome-number" />
             </LeetcodeEditor>
           </value>

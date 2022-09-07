@@ -1,4 +1,4 @@
-package LeetCode.editor.cn.HighFrequence.Hot100.leetcode.editor.cn;
+package HighFrequence.Hot100.leetcode.editor.cn;
 
 import java.util.Arrays;
 import java.util.HashMap;

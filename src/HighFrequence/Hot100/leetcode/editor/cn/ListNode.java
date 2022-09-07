@@ -1,4 +1,4 @@
-package LeetCode.editor.cn.HighFrequence.Hot100.leetcode.editor.cn;
+package HighFrequence.Hot100.leetcode.editor.cn;
 
 public class ListNode {
     int val;
