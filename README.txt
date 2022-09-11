@@ -6,10 +6,10 @@ fileName:
 lc${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug})
 
 custom template:
-package LeetCode.editor.cn;
+package HighFrequence.Hot100.leetcode.editor.cn;
 
 public class lc${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug}){
-    public static void main(Project.String[] args) {
+    public static void main(String[] args) {
         Solution solution = new lc${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug})().new Solution();
 
     }
