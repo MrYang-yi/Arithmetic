@@ -8,12 +8,12 @@ lc${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSl
 custom template:
 package HighFrequence.Hot100.leetcode.editor.cn;
 
-public class lc${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug}){
+public class lc${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug}) {
     public static void main(String[] args) {
         Solution solution = new lc${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug})().new Solution();
 
     }
 
-${question.code}
+    ${question.code}
 }
 
