@@ -20,12 +20,12 @@ public class test18 {
     public ListNode deleteNode(ListNode head, int val) {
         ListNode dummyhead = new ListNode(0);
         dummyhead.next = head;
-        ListNode low = dummyhead;
+        ListNode slow = dummyhead;
         while (head.val != val) {
             head = head.next;
-            low = low.next;
+            slow = slow.next;
         }
-        low.next = low.next.next;
+        slow.next = slow.next.next;
         return dummyhead.next;
     }
 

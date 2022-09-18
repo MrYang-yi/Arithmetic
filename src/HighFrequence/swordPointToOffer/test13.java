@@ -28,7 +28,7 @@ public class test13 {
 
 
     public int f(int[][] a, int i, int j, int k) {
-        //递归停止条件就是达到了边界，或者已经访问过的点，如果不这样的话，递归就会无穷无尽，stackoverflow了！
+        //递归停止条件就是达到了边界，或者已经访问过的点，如果不这样的话，递归就会无穷无尽，stackoverfslow了！
         if (i < 0 || i >= a.length || j < 0 || j >= a[0].length || (digit(i) + digit(j)) > k || a[i][j] == 0)
             return 0;
 

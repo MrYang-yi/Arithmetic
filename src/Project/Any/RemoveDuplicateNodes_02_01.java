@@ -14,21 +14,21 @@ public class RemoveDuplicateNodes_02_01 {
        HashMap<Integer, Integer> map = new HashMap<>();
         if (head == null) return null;
         ListNode dummyhead = new ListNode(0);
-        ListNode low = dummyhead;
+        ListNode slow = dummyhead;
         dummyhead.next = head;
-        low.next = head;
+        slow.next = head;
         while (head != null) {
             if (map.containsKey(head.val)) {
                 if (head.next == null) {
-                    low.next = null;
+                    slow.next = null;
                     return dummyhead.next;
                 }
                 head = head.next;
-                low.next = head;
+                slow.next = head;
             } else {
                 map.put(head.val, head.val);
                 head = head.next;
-                low = low.next;
+                slow = slow.next;
             }
         }
         return dummyhead.next;

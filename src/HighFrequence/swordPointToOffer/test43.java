@@ -13,12 +13,12 @@ package LeetCode.editor.cn.HighFrequence.swordPointToOffer;
  * 输出：6
  * 思路1：  这里先确定一个思路： 例如
  *      1   2    3     4     5     6
- *                          hight  cur low
+ *                          hight  cur slow
  *        digit=1  digit每次乘以10
  *        hight 和cur 每次左移一格
- *        low每次多占有一个数字 6，56，456
+ *        slow每次多占有一个数字 6，56，456
  *        cur=0  high × digit
- *        cur=1  high × digit + low + 1
+ *        cur=1  high × digit + slow + 1
  *        cur > 1  high × digit + digit
  *
  *
@@ -47,16 +47,16 @@ public class test43 {
         int res = 0;
         int high = n / 10;
         int cur = n % 10;
-        int low = 0;
+        int slow = 0;
         while (high != 0 || cur != 0) {
             if (cur == 0) {
                 res += high * digit;
             } else if (cur == 1) {
-                res += high * digit + low + 1;
+                res += high * digit + slow + 1;
             } else {
                 res += (high + 1) * digit;
             }
-            low += cur * digit;
+            slow += cur * digit;
             cur = high % 10;
             high /= 10;
             digit *= 10;

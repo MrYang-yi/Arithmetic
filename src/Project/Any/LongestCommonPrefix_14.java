@@ -5,7 +5,7 @@ package Project.Any;
  * 编写一个函数来查找字符串数组中的最长公共前缀。
  * 如果不存在公共前缀，返回空字符串 ""。
  * <p>
- * 输入: ["flower","flow","flight"]
+ * 输入: ["fslower","fslow","flight"]
  * 输出: "fl"
  * <p>
  * 输入: ["dog","racecar","car"]
@@ -30,7 +30,7 @@ public class LongestCommonPrefix_14 {
     }
 
     public static void main(String[] args) {
-        String[] a = {"flower", "flow", "flight"};
+        String[] a = {"fslower", "fslow", "flight"};
         String[] b = {"dog", "racecar", "car"};
         String c = new LongestCommonPrefix_14().longestCommonPrefix(a);
         String d = new LongestCommonPrefix_14().longestCommonPrefix(b);

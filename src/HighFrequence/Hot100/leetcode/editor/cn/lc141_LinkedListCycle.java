@@ -25,13 +25,13 @@ public class lc141_LinkedListCycle {
             if (head == null || head.next == null) {
                 return false;
             }
-            ListNode low = head;
+            ListNode slow = head;
             ListNode fast = head.next;
-            while (low != fast) {
+            while (slow != fast) {
                 if (fast == null || fast.next == null) {
                     return false;
                 }
-                low = low.next;
+                slow = slow.next;
                 fast = fast.next.next;
             }
             return true;

@@ -5,9 +5,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class lc23_MergeKSortedLists {
+public class lc23_MergeKSortedLists_valueComparator {
     public static void main(String[] args) {
-        Solution solution = new lc23_MergeKSortedLists().new Solution();
+        Solution solution = new lc23_MergeKSortedLists_valueComparator().new Solution();
         ListNode l1 = ListNodeUtils.getListNodeByArray(new int[]{1, 4, 5});
         ListNode l2 = ListNodeUtils.getListNodeByArray(new int[]{1, 3, 4});
         ListNode l3 = ListNodeUtils.getListNodeByArray(new int[]{2, 6});
@@ -34,26 +34,25 @@ public class lc23_MergeKSortedLists {
      */
     class Solution {
         public ListNode mergeKLists(ListNode[] lists) {
-            if (lists == null) {
+            if (lists == null || lists.length == 0) {
                 return null;
             }
             List<ListNode> list = new ArrayList<>();
-            ValueComparator valueComparator = new ValueComparator();
             for (int i = 0; i < lists.length; i++) {
                 while (lists[i] != null) {
                     list.add(lists[i]);
                     lists[i] = lists[i].next;
                 }
             }
+            ValueComparator valueComparator = new ValueComparator();
             Collections.sort(list, valueComparator);
             ListNode dummyHead = new ListNode(-1);
             ListNode cur = dummyHead;
-            for (ListNode listNode : list) {
-                cur = new ListNode(listNode.val);
+            for (ListNode node : list) {
+                cur.next = new ListNode(node.val);
                 cur = cur.next;
             }
             return dummyHead.next;
-
         }
 
         private class ValueComparator implements Comparator<ListNode> {

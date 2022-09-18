@@ -1,4 +1,4 @@
-package LeetCode.editor.cn.HighFrequence.swordPointToOffer;
+package HighFrequence.swordPointToOffer;
 
 /**
  * 面试题24. 反转链表

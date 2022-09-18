@@ -11,15 +11,15 @@ public class KthToLast_02_02 {
     public int kthToLast(ListNode head, int k) {
         if (head == null) return Integer.MAX_VALUE;
         ListNode fast = head;
-        ListNode low = head;
+        ListNode slow = head;
         for (int i = 0; i < k; i++) {
             fast = fast.next;
         }
         while (fast != null) {
             fast = fast.next;
-            low = low.next;
+            slow = slow.next;
         }
-        return low.val;
+        return slow.val;
     }
 
     public static void main(String[] args) {

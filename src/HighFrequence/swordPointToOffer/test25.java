@@ -1,4 +1,4 @@
-package LeetCode.editor.cn.HighFrequence.swordPointToOffer;
+package HighFrequence.swordPointToOffer;
 
 /**
  * 面试题25. 合并两个排序的链表

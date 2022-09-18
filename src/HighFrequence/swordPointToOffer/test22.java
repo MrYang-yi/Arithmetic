@@ -1,4 +1,4 @@
-package LeetCode.editor.cn.HighFrequence.swordPointToOffer;
+package HighFrequence.swordPointToOffer;
 
 /**
  * 面试题22. 链表中倒数第k个节点
@@ -14,16 +14,16 @@ package LeetCode.editor.cn.HighFrequence.swordPointToOffer;
 public class test22 {
     public ListNode getKthFromEnd(ListNode head, int k) {
         if (head == null) return null;
-        ListNode low = head;
+        ListNode slow = head;
         while (k > 0 && head != null) {
             head = head.next;
             k--;
         }
         while (head != null) {
             head = head.next;
-            low = low.next;
+            slow = slow.next;
         }
-        return low;
+        return slow;
 
     }
 
