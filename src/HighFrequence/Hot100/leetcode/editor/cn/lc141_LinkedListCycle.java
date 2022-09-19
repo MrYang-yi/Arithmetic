@@ -26,15 +26,15 @@ public class lc141_LinkedListCycle {
                 return false;
             }
             ListNode slow = head;
-            ListNode fast = head.next;
-            while (slow != fast) {
-                if (fast == null || fast.next == null) {
-                    return false;
-                }
+            ListNode fast = head;
+            while (fast != null && fast.next != null) {
                 slow = slow.next;
                 fast = fast.next.next;
+                if (slow == fast) {
+                    return true;
+                }
             }
-            return true;
+            return false;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

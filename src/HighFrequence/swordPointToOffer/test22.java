@@ -24,7 +24,6 @@ public class test22 {
             slow = slow.next;
         }
         return slow;
-
     }
 
     public static void main(String[] args) {

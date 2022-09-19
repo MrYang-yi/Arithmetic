@@ -43,7 +43,6 @@ public class lc21_MergeTwoSortedLists {
                     l2 = l2.next;
                     cur = cur.next;
                 }
-
             }
             return dummyHead.next;
         }
