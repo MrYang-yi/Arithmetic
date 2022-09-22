@@ -17,9 +17,8 @@ public class lc1_TwoSum {
             for (int i = 0; i < nums.length; i++) {
                 if (map.containsKey(target - nums[i])) {
                     return new int[]{i, map.get(target - nums[i])};
-                } else {
-                    map.put(nums[i], i);
                 }
+                map.put(nums[i], i);
             }
             return null;
         }
