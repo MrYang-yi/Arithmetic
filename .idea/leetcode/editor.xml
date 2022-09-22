@@ -300,6 +300,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc26_RemoveDuplicatesFromSortedArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc26_RemoveDuplicatesFromSortedArray.md" />
+              <option name="frontendQuestionId" value="leetcode.cn26" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc26_RemoveDuplicatesFromSortedArray.java" />
+              <option name="titleSlug" value="remove-duplicates-from-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc27_RemoveElement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc27_RemoveElement.md" />
+              <option name="frontendQuestionId" value="leetcode.cn27" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc27_RemoveElement.java" />
+              <option name="titleSlug" value="remove-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc31_NextPermutation.java">
           <value>
             <LeetcodeEditor>
@@ -490,10 +512,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/RemoveElement.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/[27]RemoveElement.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc27_RemoveElement.md" />
               <option name="frontendQuestionId" value="leetcode.cn27" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/[27]RemoveElement.java" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc27_RemoveElement.java" />
               <option name="titleSlug" value="remove-element" />
             </LeetcodeEditor>
           </value>
@@ -567,10 +589,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/[27]RemoveElement.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/[27]RemoveElement.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc27_RemoveElement.md" />
               <option name="frontendQuestionId" value="leetcode.cn27" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/[27]RemoveElement.java" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc27_RemoveElement.java" />
               <option name="titleSlug" value="remove-element" />
             </LeetcodeEditor>
           </value>
