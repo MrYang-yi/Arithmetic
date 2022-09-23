@@ -30,23 +30,7 @@ public class lc94_BinaryTreeInorderTraversal_stack {
         System.out.println(solution.inorderTraversal(node1));
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
-
-    /**
-     * Definition for a binary tree node.
-     * public class TreeNode {
-     * int val;
-     * TreeNode left;
-     * TreeNode right;
-     * TreeNode() {}
-     * TreeNode(int val) { this.val = val; }
-     * TreeNode(int val, TreeNode left, TreeNode right) {
-     * this.val = val;
-     * this.left = left;
-     * this.right = right;
-     * }
-     * }
-     */
+    //中序遍历
     class Solution {
         public List<Integer> inorderTraversal(TreeNode root) {
             List<Integer> list = new ArrayList<>();
@@ -62,8 +46,5 @@ public class lc94_BinaryTreeInorderTraversal_stack {
             }
             return list;
         }
-
     }
-//leetcode submit region end(Prohibit modification and deletion)
-
 }
