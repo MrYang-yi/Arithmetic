@@ -1,15 +1,16 @@
 package HighFrequence.Hot100.leetcode.editor.cn;
 
 import java.util.Arrays;
+import java.util.stream.Collectors;
 
-public class lc31_NextPermutation_cannot {
+public class lc31_NextPermutation {
     public static void main(String[] args) {
-        Solution solution = new lc31_NextPermutation_cannot().new Solution();
-        solution.nextPermutation(new int[]{1, 2, 3});
-
+        Solution solution = new lc31_NextPermutation().new Solution();
+        int[] a = {1, 2, 3};
+        solution.nextPermutation(a);
+        System.out.println(Arrays.stream(a).boxed().collect(Collectors.toList()));
     }
 
-    //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public void nextPermutation(int[] nums) {
             for (int i = nums.length - 1; i >= 0; i--) {
@@ -31,6 +32,4 @@ public class lc31_NextPermutation_cannot {
             a[j] = temp;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
-
 }

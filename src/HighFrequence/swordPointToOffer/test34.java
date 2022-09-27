@@ -1,4 +1,5 @@
-package LeetCode.editor.cn.HighFrequence.swordPointToOffer;
+package HighFrequence.swordPointToOffer;
+
 
 import java.util.ArrayList;
 import java.util.List;
