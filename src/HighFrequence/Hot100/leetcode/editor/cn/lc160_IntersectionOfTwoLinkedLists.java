@@ -18,7 +18,7 @@ public class lc160_IntersectionOfTwoLinkedLists {
         ListNodeUtils.sout(solution.getIntersectionNode(l1, l2));
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,6 +52,6 @@ public class lc160_IntersectionOfTwoLinkedLists {
             return l1;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

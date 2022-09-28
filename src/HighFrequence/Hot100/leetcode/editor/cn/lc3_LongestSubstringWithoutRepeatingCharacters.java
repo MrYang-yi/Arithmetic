@@ -8,7 +8,7 @@ public class lc3_LongestSubstringWithoutRepeatingCharacters {
         System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
     }
 
-    //leetcode submit region begin(Prohibit modification and deletion)
+    
     class Solution {
         public int lengthOfLongestSubstring(String s) {
             HashMap<Character, Integer> map = new HashMap<>();
@@ -26,6 +26,6 @@ public class lc3_LongestSubstringWithoutRepeatingCharacters {
             return maxValue;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

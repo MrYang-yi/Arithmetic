@@ -10,7 +10,7 @@ public class lc1_TwoSum {
         Arrays.asList(array).forEach(System.out::println);
     }
 
-    //leetcode submit region begin(Prohibit modification and deletion)
+    
     class Solution {
         public int[] twoSum(int[] nums, int target) {
             HashMap<Integer, Integer> map = new HashMap<>();
@@ -23,6 +23,6 @@ public class lc1_TwoSum {
             return null;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

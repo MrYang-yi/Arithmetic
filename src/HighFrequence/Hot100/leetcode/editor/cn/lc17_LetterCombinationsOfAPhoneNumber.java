@@ -11,7 +11,7 @@ public class lc17_LetterCombinationsOfAPhoneNumber {
         solution.letterCombinations("23").forEach(System.out::println);
     }
 
-    //leetcode submit region begin(Prohibit modification and deletion)
+    
     class Solution {
         public List<String> letterCombinations(String digits) {
             List<String> list = new ArrayList<>();
@@ -44,6 +44,6 @@ public class lc17_LetterCombinationsOfAPhoneNumber {
             }
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

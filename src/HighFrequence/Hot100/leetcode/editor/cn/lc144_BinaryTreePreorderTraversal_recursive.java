@@ -48,6 +48,6 @@ public class lc144_BinaryTreePreorderTraversal_recursive {
             preorder(list, root.right);
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

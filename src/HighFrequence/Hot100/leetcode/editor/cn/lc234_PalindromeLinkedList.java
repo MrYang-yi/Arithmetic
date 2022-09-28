@@ -10,7 +10,7 @@ public class lc234_PalindromeLinkedList {
         System.out.println(solution.isPalindrome(ListNodeUtils.getListNodeByArray(new int[]{1, 2, 3, 2, 1})));
     }
 
-    //leetcode submit region begin(Prohibit modification and deletion)
+    
 
     /**
      * Definition for singly-linked list.
@@ -41,7 +41,7 @@ public class lc234_PalindromeLinkedList {
             return true;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }
 

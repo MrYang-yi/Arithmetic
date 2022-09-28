@@ -26,6 +26,6 @@ public class lc70_ClimbingStairs {
             return c;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

@@ -15,7 +15,7 @@ public class lc23_MergeKSortedLists_valueComparator {
         ListNodeUtils.sout(solution.mergeKLists(list));
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
+
 /**
  * 实现一个排序的内部类
  * 把K个ListNode 加进List中
@@ -62,6 +62,6 @@ public class lc23_MergeKSortedLists_valueComparator {
             }
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

@@ -48,6 +48,6 @@ public class lc145_BinaryTreePostorderTraversal_recursive {
             list.add(root.val);
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

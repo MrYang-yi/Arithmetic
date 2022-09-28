@@ -7,7 +7,7 @@ public class lc19_RemoveNthNodeFromEndOfList {
         ListNodeUtils.sout(solution.removeNthFromEnd(l1, 2));
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
+
 
     /**
      * Definition for singly-linked list.
@@ -36,6 +36,6 @@ public class lc19_RemoveNthNodeFromEndOfList {
             return dummyhead.next;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

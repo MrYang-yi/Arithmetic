@@ -7,7 +7,7 @@ public class lc5_LongestPalindromicSubstring {
 
     }
 
-    //leetcode submit region begin(Prohibit modification and deletion)
+    
     class Solution {
         public String longestPalindrome(String s) {
             int start = 0;
@@ -37,6 +37,6 @@ public class lc5_LongestPalindromicSubstring {
             return right - left - 1;// (right-left+1)-2  因为当下一次循环不相等时，left和right各自都多走了一步，所以需要-2
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

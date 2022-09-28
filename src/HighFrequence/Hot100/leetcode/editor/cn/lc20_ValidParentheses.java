@@ -11,7 +11,7 @@ public class lc20_ValidParentheses {
         System.out.println(solution.isValid("()[]{}"));
     }
 
-    //leetcode submit region begin(Prohibit modification and deletion)
+    
     class Solution {
         public boolean isValid(String s) {
             Map<Character, Character> map = new HashMap<>();
@@ -32,6 +32,6 @@ public class lc20_ValidParentheses {
             return stack.isEmpty();
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

@@ -12,7 +12,7 @@ public class lc23_MergeKSortedLists_priorityQueue {
         ListNodeUtils.sout(solution.mergeKLists(list));
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
+
 /**
  * 最小堆，优先队列
  */

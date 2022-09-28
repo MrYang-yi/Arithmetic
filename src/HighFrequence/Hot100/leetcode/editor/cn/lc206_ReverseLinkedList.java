@@ -7,7 +7,7 @@ public class lc206_ReverseLinkedList {
         ListNodeUtils.sout(solution.reverseList(l1));
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
+
 
     /**
      * Definition for singly-linked list.
@@ -48,4 +48,4 @@ public class lc206_ReverseLinkedList {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+

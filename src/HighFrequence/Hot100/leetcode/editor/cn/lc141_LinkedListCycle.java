@@ -15,7 +15,7 @@ public class lc141_LinkedListCycle {
 
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
+
 
     /**
      * 出现环时，快指针会追上慢指针，判断是否会再次相遇即可
@@ -37,6 +37,6 @@ public class lc141_LinkedListCycle {
             return false;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

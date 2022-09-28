@@ -11,7 +11,7 @@ public class lc11_ContainerWithMostWater {
      * 宽 = end - start ; 长 = min (heigth[start],height[end])
      * 即谁的高度更矮 谁去移动
      */
-//leetcode submit region begin(Prohibit modification and deletion)
+
     class Solution {
         public int maxArea(int[] height) {
             int start = 0;
@@ -30,6 +30,6 @@ public class lc11_ContainerWithMostWater {
             return max;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

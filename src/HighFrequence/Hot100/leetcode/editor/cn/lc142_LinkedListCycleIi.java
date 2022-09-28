@@ -18,19 +18,6 @@ public class lc142_LinkedListCycleIi {
 
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
-
-    /**
-     * Definition for singly-linked list.
-     * class ListNode {
-     * int val;
-     * ListNode next;
-     * ListNode(int x) {
-     * val = x;
-     * next = null;
-     * }
-     * }
-     */
     public class Solution {
         public ListNode detectCycle(ListNode head) {
             if (head == null) {
@@ -47,6 +34,5 @@ public class lc142_LinkedListCycleIi {
             return null;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
 
 }

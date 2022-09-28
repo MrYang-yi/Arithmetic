@@ -6,7 +6,7 @@ public class lc86_PartitionList {
         ListNodeUtils.sout(solution.partition(ListNodeUtils.getListNodeByArray(new int[]{1, 4, 3, 2, 5, 2}), 3));
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
+
 
     /**
      * Definition for singly-linked list.
@@ -42,6 +42,6 @@ public class lc86_PartitionList {
             return dummyHead1.next;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

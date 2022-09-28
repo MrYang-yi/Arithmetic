@@ -10,7 +10,7 @@ public class lc2_AddTwoNumbers {
         ListNodeUtils.sout(l3);
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
+
 
     /**
      * Definition for singly-linked list.
@@ -43,6 +43,6 @@ public class lc2_AddTwoNumbers {
             return dummyHead.next;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

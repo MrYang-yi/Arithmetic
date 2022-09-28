@@ -10,7 +10,7 @@ public class lc148_SortList {
         ListNodeUtils.sout(solution.sortList(ListNodeUtils.getListNodeByArray(new int[]{4, 2, 1, 3})));
     }
 
-//leetcode submit region begin(Prohibit modification and deletion)
+
 
     /**
      * Definition for singly-linked list.
@@ -46,6 +46,6 @@ public class lc148_SortList {
             return dummyHead.next;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }

@@ -9,7 +9,7 @@ public class lc22_GenerateParentheses {
 
     }
 
-    //leetcode submit region begin(Prohibit modification and deletion)
+    
     class Solution {
         public List<String> generateParenthesis(int n) {
             List<String> list = new ArrayList<>();
@@ -44,6 +44,6 @@ public class lc22_GenerateParentheses {
             }
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
 
 }
