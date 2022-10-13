@@ -24,6 +24,7 @@ public class lc46_Permutations {
         private void backTrack(List<List<Integer>> list, int index, int[] nums, List<Integer> result, boolean[] used) {
             if (index == nums.length) {
                 list.add(new ArrayList<>(result));
+                return;
             }
             for (int i = 0; i < nums.length; i++) {
                 if (used[i]) {
@@ -32,7 +33,7 @@ public class lc46_Permutations {
                 result.add(nums[i]);
                 used[i] = true;
                 backTrack(list, index + 1, nums, result, used);
-                result.remove(result.get(result.size() - 1));
+                result.remove(index);
                 used[i] = false;
             }
         }
