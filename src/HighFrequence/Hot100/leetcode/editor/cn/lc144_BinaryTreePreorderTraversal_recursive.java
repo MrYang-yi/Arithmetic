@@ -31,7 +31,7 @@ public class lc144_BinaryTreePreorderTraversal_recursive {
         System.out.println(solution.preorderTraversal(node1));
     }
 
- // 前序遍历
+    //二叉树的前序遍历
     class Solution {
         public List<Integer> preorderTraversal(TreeNode root) {
             List<Integer> list = new ArrayList<>();

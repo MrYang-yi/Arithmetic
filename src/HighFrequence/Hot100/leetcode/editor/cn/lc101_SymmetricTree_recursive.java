@@ -17,10 +17,9 @@ public class lc101_SymmetricTree_recursive {
         node4.left = node5;
         node4.right = node6;
         System.out.println(solution.isSymmetric(root));
-
-
     }
 
+    //对称二叉树
     class Solution {
         public boolean isSymmetric(TreeNode root) {
             return check(root, root);
@@ -36,5 +35,4 @@ public class lc101_SymmetricTree_recursive {
             return p.val == q.val && check(p.left, q.right) && check(p.right, q.left);
         }
     }
-
 }

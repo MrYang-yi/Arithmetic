@@ -11,6 +11,7 @@ public class lc283_MoveZeroes {
 
     }
 
+    //移动零
     class Solution {
         public void moveZeroes(int[] nums) {
             int p = remove(nums);
@@ -33,5 +34,4 @@ public class lc283_MoveZeroes {
             return left;
         }
     }
-
 }

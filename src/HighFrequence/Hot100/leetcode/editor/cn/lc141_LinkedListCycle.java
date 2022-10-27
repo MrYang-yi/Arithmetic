@@ -15,11 +15,10 @@ public class lc141_LinkedListCycle {
 
     }
 
-
-
     /**
      * 出现环时，快指针会追上慢指针，判断是否会再次相遇即可
      */
+    //环形链表
     public class Solution {
         public boolean hasCycle(ListNode head) {
             if (head == null || head.next == null) {
@@ -37,6 +36,4 @@ public class lc141_LinkedListCycle {
             return false;
         }
     }
-
-
 }

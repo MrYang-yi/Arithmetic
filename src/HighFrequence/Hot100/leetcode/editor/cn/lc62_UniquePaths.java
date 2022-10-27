@@ -14,6 +14,7 @@ public class lc62_UniquePaths {
      *     ------------
      *     (m-1)!(n-1)!
      */
+    //不同路径
     class Solution {
         public int uniquePaths(int m, int n) {
             long ans = 1;

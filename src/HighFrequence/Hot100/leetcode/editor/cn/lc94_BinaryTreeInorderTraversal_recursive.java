@@ -30,7 +30,7 @@ public class lc94_BinaryTreeInorderTraversal_recursive {
         System.out.println(solution.inorderTraversal(node1));
     }
 
-    //中序遍历
+    //二叉树的中序遍历
     class Solution {
         public List<Integer> inorderTraversal(TreeNode root) {
             List<Integer> list = new ArrayList<>();

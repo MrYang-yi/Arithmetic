@@ -20,6 +20,7 @@ public class lc114_FlattenBinaryTreeToLinkedList_stack {
 
     }
 
+    //二叉树展开为链表
     class Solution {
         public void flatten(TreeNode root) {
             if (root == null) {

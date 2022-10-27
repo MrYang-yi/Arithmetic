@@ -1,4 +1,4 @@
-package HighFrequence.Hot100.leetcode.editor.cn;
+package Project.Any;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,6 +10,7 @@ public class lc47_PermutationsIi {
         System.out.println(solution.resultuteUnique(new int[]{1, 1, 2}));
     }
 
+    //全排列 II
     class Solution {
         public List<List<Integer>> resultuteUnique(int[] nums) {
             List<List<Integer>> list = new ArrayList<>();
@@ -19,12 +20,12 @@ public class lc47_PermutationsIi {
             }
             boolean[] used = new boolean[nums.length];
             Arrays.sort(nums);  //46不需要排序
-            backTrack(list, 0, nums, result, used);
+            dfs(list, 0, nums, result, used);
             return list;
         }
 
-        private void backTrack(List<List<Integer>> list, int index, int[] nums, List<Integer> result, boolean[] used) {
-            if (index == nums.length) {
+        private void dfs(List<List<Integer>> list, int depth, int[] nums, List<Integer> result, boolean[] used) {
+            if (depth == nums.length) {
                 list.add(new ArrayList<>(result));
                 return;
             }
@@ -34,8 +35,8 @@ public class lc47_PermutationsIi {
                 }
                 result.add(nums[i]);
                 used[i] = true;
-                backTrack(list, index + 1, nums, result, used);
-                result.remove(index);
+                dfs(list, depth + 1, nums, result, used);
+                result.remove(depth);
                 used[i] = false;
             }
         }

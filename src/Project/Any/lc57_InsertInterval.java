@@ -1,4 +1,4 @@
-package HighFrequence.Hot100.leetcode.editor.cn;
+package Project.Any;
 
 import java.util.Arrays;
 
@@ -20,6 +20,7 @@ public class lc57_InsertInterval {
      * 则不合并，直接将当前区间加入结果数组。
      * 反之将当前区间合并至结果数组的最后区间
      */
+    //插入区间
     class Solution {
         public int[][] insert(int[][] intervals, int[] newInterval) {
             int[][] newArray = Arrays.copyOf(intervals, intervals.length + 1);

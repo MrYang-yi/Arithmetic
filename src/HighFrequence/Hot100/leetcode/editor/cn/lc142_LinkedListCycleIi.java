@@ -18,6 +18,7 @@ public class lc142_LinkedListCycleIi {
 
     }
 
+    //环形链表 II
     public class Solution {
         public ListNode detectCycle(ListNode head) {
             if (head == null) {
@@ -34,5 +35,4 @@ public class lc142_LinkedListCycleIi {
             return null;
         }
     }
-
 }

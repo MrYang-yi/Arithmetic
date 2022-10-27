@@ -7,18 +7,6 @@ public class lc206_ReverseLinkedList {
         ListNodeUtils.sout(solution.reverseList(l1));
     }
 
-
-
-    /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     * int val;
-     * ListNode next;
-     * ListNode() {}
-     * ListNode(int val) { this.val = val; }
-     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-     * }
-     */
     /**
      * 1 - 2 - 3 - 4 -5
      * <p>
@@ -30,6 +18,7 @@ public class lc206_ReverseLinkedList {
      * 第二步  prev上移 cur右移
      * 1(prev) - 2(l1,cur) -3 - 4 -5
      */
+    //反转链表
     class Solution {
         public ListNode reverseList(ListNode head) {
             if (head == null) {

@@ -15,8 +15,10 @@ public class lc543_DiameterOfBinaryTree {
         System.out.println(solution.diameterOfBinaryTree(root));
     }
 
+    //二叉树的直径
     class Solution {
         int ans;
+
         public int diameterOfBinaryTree(TreeNode root) {
             ans = 1;
             depth(root);

@@ -9,6 +9,7 @@ public class lc34_FindFirstAndLastPositionOfElementInSortedArray {
         System.out.println(Arrays.stream(solution.searchRange(new int[]{5, 7, 7, 8, 8, 10}, 6)).boxed().collect(Collectors.toList()));
     }
 
+    //在排序数组中查找元素的第一个和最后一个位置
     class Solution {
         public int[] searchRange(int[] nums, int target) {
             int left = 0;
@@ -39,5 +40,4 @@ public class lc34_FindFirstAndLastPositionOfElementInSortedArray {
             return new int[]{-1, -1};
         }
     }
-
 }

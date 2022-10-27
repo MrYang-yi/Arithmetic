@@ -7,6 +7,7 @@ public class lc75_SortColors {
 
     }
 
+    //颜色分类
     class Solution {
         public void sortColors(int[] nums) {
             int p = 0, q = nums.length - 1;

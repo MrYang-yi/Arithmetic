@@ -11,6 +11,7 @@ public class lc31_NextPermutation {
         System.out.println(Arrays.stream(a).boxed().collect(Collectors.toList()));
     }
 
+    //下一个排列
     class Solution {
         public void nextPermutation(int[] nums) {
             for (int i = nums.length - 1; i >= 0; i--) {

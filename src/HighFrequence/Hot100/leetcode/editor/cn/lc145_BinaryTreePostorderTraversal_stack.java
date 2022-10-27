@@ -30,7 +30,7 @@ public class lc145_BinaryTreePostorderTraversal_stack {
         System.out.println(solution.postorderTraversal(node1));
     }
 
-    // 后序遍历
+    // 二叉树的后序遍历
     class Solution {
         public List<Integer> postorderTraversal(TreeNode root) {
             List<Integer> list = new ArrayList<>();

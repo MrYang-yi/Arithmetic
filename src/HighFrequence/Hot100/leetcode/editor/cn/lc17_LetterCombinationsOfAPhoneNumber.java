@@ -11,7 +11,7 @@ public class lc17_LetterCombinationsOfAPhoneNumber {
         solution.letterCombinations("23").forEach(System.out::println);
     }
 
-    
+    //电话号码的字母组合
     class Solution {
         public List<String> letterCombinations(String digits) {
             List<String> list = new ArrayList<>();
@@ -27,23 +27,21 @@ public class lc17_LetterCombinationsOfAPhoneNumber {
             map.put(7, "pqrs");
             map.put(8, "tuv");
             map.put(9, "wxyz");
-            backTrack(list, map, digits, 0, new StringBuffer());
+            dfs(list, map, digits, 0, new StringBuffer());
             return list;
         }
     }
 
-    private void backTrack(List<String> list, Map<Integer, String> map, String digits, int index, StringBuffer stringBuffer) {
-        if (index == digits.length()) {
+    private void dfs(List<String> list, Map<Integer, String> map, String digits, int depth, StringBuffer stringBuffer) {
+        if (depth == digits.length()) {
             list.add(stringBuffer.toString());
         } else {
-            String floor = map.get(Integer.parseInt(String.valueOf(digits.charAt(index)))); //拿到当前一层的所有值
+            String floor = map.get(Integer.parseInt(String.valueOf(digits.charAt(depth)))); //拿到当前一层的所有值
             for (int i = 0; i < floor.length(); i++) {
                 stringBuffer.append(floor.charAt(i));  //添加当前层的第一个值
-                backTrack(list, map, digits, index + 1, stringBuffer);  //开始回溯
-                stringBuffer.deleteCharAt(index);
+                dfs(list, map, digits, depth + 1, stringBuffer);  //开始回溯
+                stringBuffer.deleteCharAt(depth);
             }
         }
     }
-
-
 }

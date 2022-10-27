@@ -9,6 +9,7 @@ public class lc55_JumpGame {
     /**
      * 不断更新能走到的最远的位置
      */
+    //跳跃游戏
     class Solution {
         public boolean canJump(int[] nums) {
             int k = 0;

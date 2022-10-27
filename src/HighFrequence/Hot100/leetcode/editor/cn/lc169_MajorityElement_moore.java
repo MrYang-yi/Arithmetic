@@ -9,6 +9,7 @@ public class lc169_MajorityElement_moore {
     /**
      * 摩尔投票法 碰到相同的数，加1票，否则减1票，如果票数为0，则重置众数
      */
+    //多数元素
     class Solution {
         public int majorityElement(int[] nums) {
             int mostNum = nums[0];

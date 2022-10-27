@@ -14,22 +14,9 @@ public class lc160_IntersectionOfTwoLinkedLists {
         l2.next = node2;
         node2.next = node3;
         node3.next = common;
-
         ListNodeUtils.sout(solution.getIntersectionNode(l1, l2));
     }
 
-
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
     /**
      * 假设A :1 2 3 4 5
      * 假设B :7 8 9 3 4 5
@@ -37,7 +24,7 @@ public class lc160_IntersectionOfTwoLinkedLists {
      * B+A链: 7 8 9 3 4 5 1 2 3 4 5
      * 所以必有相交点
      */
-
+//相交链表
     public class Solution {
         public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
             if (headA == null || headB == null) {
@@ -52,6 +39,4 @@ public class lc160_IntersectionOfTwoLinkedLists {
             return l1;
         }
     }
-
-
 }

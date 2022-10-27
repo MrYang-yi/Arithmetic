@@ -7,6 +7,7 @@ public class lc53_MaximumSubarray {
 
     }
 
+    //最大子数组和
     class Solution {
         public int maxSubArray(int[] nums) {
             int maxAll = nums[0];  //记录n个数的最大值

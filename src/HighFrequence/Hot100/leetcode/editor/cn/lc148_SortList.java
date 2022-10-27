@@ -10,22 +10,10 @@ public class lc148_SortList {
         ListNodeUtils.sout(solution.sortList(ListNodeUtils.getListNodeByArray(new int[]{4, 2, 1, 3})));
     }
 
-
-
     /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     * int val;
-     * ListNode next;
-     * ListNode() {}
-     * ListNode(int val) { this.val = val; }
-     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-     * }
+     * 也可以像lc23去实现一个内部针对ListNode的排序类
      */
-
-    /**
-     * 也可以想lc23去实现一个内部针对ListNode的排序类
-     */
+    //排序链表
     class Solution {
         public ListNode sortList(ListNode head) {
             if (head == null) {
@@ -46,6 +34,4 @@ public class lc148_SortList {
             return dummyHead.next;
         }
     }
-
-
 }

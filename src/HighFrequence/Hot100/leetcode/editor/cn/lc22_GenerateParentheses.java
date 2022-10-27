@@ -9,7 +9,7 @@ public class lc22_GenerateParentheses {
 
     }
 
-    
+    //括号生成
     class Solution {
         public List<String> generateParenthesis(int n) {
             List<String> list = new ArrayList<>();
@@ -25,18 +25,15 @@ public class lc22_GenerateParentheses {
                 list.add(stringBuffer.toString());
                 return;
             }
-
             // 剪枝（左括号可以使用的个数严格大于右括号可以使用的个数，才剪枝，注意这个细节）
             if (left > right) {
                 return;
             }
-
             if (left > 0) {
                 stringBuffer.append("(");
                 dfs(stringBuffer, left - 1, right, list);
                 stringBuffer.deleteCharAt(stringBuffer.length() - 1);
             }
-
             if (right > 0) {
                 stringBuffer.append(")");
                 dfs(stringBuffer, left, right - 1, list);
@@ -44,6 +41,4 @@ public class lc22_GenerateParentheses {
             }
         }
     }
-
-
 }

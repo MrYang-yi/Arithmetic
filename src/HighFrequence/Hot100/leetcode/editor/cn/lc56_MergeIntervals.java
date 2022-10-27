@@ -19,6 +19,7 @@ public class lc56_MergeIntervals {
      * 则不合并，直接将当前区间加入结果数组。
      * 反之将当前区间合并至结果数组的最后区间
      */
+    //合并区间
     class Solution {
         public int[][] merge(int[][] intervals) {
             Arrays.sort(intervals, (v1, v2) -> v1[0] - v2[0]);

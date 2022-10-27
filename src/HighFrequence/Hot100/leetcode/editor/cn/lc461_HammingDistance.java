@@ -6,10 +6,10 @@ public class lc461_HammingDistance {
         System.out.println(solution.hammingDistance(3, 5));
     }
 
+    //汉明距离
     class Solution {
         public int hammingDistance(int x, int y) {
             return Integer.bitCount(x ^ y);
         }
     }
-
 }

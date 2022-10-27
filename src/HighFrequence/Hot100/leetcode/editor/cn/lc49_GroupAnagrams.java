@@ -8,10 +8,11 @@ public class lc49_GroupAnagrams {
         System.out.println(solution.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
     }
 
+    //字母异位词分组
     class Solution {
         public List<List<String>> groupAnagrams(String[] strs) {
             Map<String, List<String>> map = new HashMap<String, List<String>>();
-            for (String str: strs){
+            for (String str : strs) {
                 char[] arr = str.toCharArray();
                 Arrays.sort(arr);
                 String key = new String(arr);

@@ -6,7 +6,7 @@ public class lc617_MergeTwoBinaryTrees {
         //此题忽略 直接提交即可
     }
 
-    //深度优先搜索
+    //合并二叉树
     class Solution {
         public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
             if (root1 == null) {

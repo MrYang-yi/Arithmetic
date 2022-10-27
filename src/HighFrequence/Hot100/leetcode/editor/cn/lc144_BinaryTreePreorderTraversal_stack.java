@@ -5,11 +5,10 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- *          1
- *       2     3
- *     4   5  6
- *   7  8
- *
+ * 1
+ * 2     3
+ * 4   5  6
+ * 7  8
  */
 public class lc144_BinaryTreePreorderTraversal_stack {
     public static void main(String[] args) {
@@ -29,11 +28,10 @@ public class lc144_BinaryTreePreorderTraversal_stack {
         node3.left = node6;
         node4.left = node7;
         node4.right = node8;
-
         System.out.println(solution.preorderTraversal(node1));
     }
 
-    // 前序遍历
+    //二叉树的前序遍历
     class Solution {
         public List<Integer> preorderTraversal(TreeNode root) {
             List<Integer> list = new ArrayList<>();
@@ -50,5 +48,4 @@ public class lc144_BinaryTreePreorderTraversal_stack {
             return list;
         }
     }
-
 }

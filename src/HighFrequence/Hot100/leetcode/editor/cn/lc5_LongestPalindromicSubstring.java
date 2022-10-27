@@ -4,10 +4,9 @@ public class lc5_LongestPalindromicSubstring {
     public static void main(String[] args) {
         Solution solution = new lc5_LongestPalindromicSubstring().new Solution();
         System.out.println(solution.longestPalindrome("tattarrattat"));
-
     }
 
-    
+    //最长回文子串
     class Solution {
         public String longestPalindrome(String s) {
             int start = 0;
@@ -17,7 +16,7 @@ public class lc5_LongestPalindromicSubstring {
                 int a = findMax(i, i, s);
                 int b = findMax(i, i + 1, s);
                 //max = Math.max(a, b); //如果这里是求长度，就直接return了
-                if (a > end - start +  1) {
+                if (a > end - start + 1) {
                     start = i - a / 2;
                     end = i + a / 2;
                 }
@@ -37,6 +36,4 @@ public class lc5_LongestPalindromicSubstring {
             return right - left - 1;// (right-left+1)-2  因为当下一次循环不相等时，left和right各自都多走了一步，所以需要-2
         }
     }
-
-
 }

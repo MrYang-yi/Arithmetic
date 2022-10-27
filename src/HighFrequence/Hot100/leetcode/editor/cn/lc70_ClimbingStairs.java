@@ -9,6 +9,7 @@ public class lc70_ClimbingStairs {
     /**
      * 斐波那契数列 f(n)=f(n-1)+f(n-2)
      */
+    //爬楼梯
     class Solution {
         public int climbStairs(int n) {
             if (n == 0 || n == 1) {
@@ -21,11 +22,8 @@ public class lc70_ClimbingStairs {
                 c = a + b;
                 a = b;
                 b = c;
-
             }
             return c;
         }
     }
-
-
 }

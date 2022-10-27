@@ -4,11 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *          1
- *       2     3
- *     4   5  6
- *   7  8
- *
+ * 1
+ * 2     3
+ * 4   5  6
+ * 7  8
  */
 public class lc145_BinaryTreePostorderTraversal_recursive {
     public static void main(String[] args) {
@@ -31,7 +30,7 @@ public class lc145_BinaryTreePostorderTraversal_recursive {
         System.out.println(solution.postorderTraversal(node1));
     }
 
-    // 后序遍历
+    // 二叉树的后序遍历
     class Solution {
         public List<Integer> postorderTraversal(TreeNode root) {
             List<Integer> list = new ArrayList<>();
@@ -48,6 +47,4 @@ public class lc145_BinaryTreePostorderTraversal_recursive {
             list.add(root.val);
         }
     }
-
-
 }

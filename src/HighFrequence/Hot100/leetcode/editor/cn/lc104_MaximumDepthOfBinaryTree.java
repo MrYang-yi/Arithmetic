@@ -14,16 +14,16 @@ public class lc104_MaximumDepthOfBinaryTree {
         System.out.println(solution.maxDepth(root));
     }
 
+    //二叉树的最大深度
     class Solution {
         public int maxDepth(TreeNode root) {
-           if(root == null){
-               return 0;
-           }
-           int leftHeight = maxDepth(root.left);
-           int rightHeight = maxDepth(root.right);
-           int sum = Math.max(leftHeight, rightHeight) + 1;
-           return  sum;
+            if (root == null) {
+                return 0;
+            }
+            int leftHeight = maxDepth(root.left);
+            int rightHeight = maxDepth(root.right);
+            int sum = Math.max(leftHeight, rightHeight) + 1;
+            return sum;
         }
     }
-
 }

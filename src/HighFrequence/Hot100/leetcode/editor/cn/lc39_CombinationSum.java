@@ -9,6 +9,7 @@ public class lc39_CombinationSum {
         System.out.println(solution.combinationSum(new int[]{2, 3, 6, 7}, 7));
     }
 
+    //组合总和
     class Solution {
         public List<List<Integer>> combinationSum(int[] candidates, int target) {
             List<List<Integer>> ans = new ArrayList<List<Integer>>();
@@ -17,8 +18,8 @@ public class lc39_CombinationSum {
             return ans;
         }
 
-        public void dfs(int[] candidates, int target, List<List<Integer>> ans, List<Integer> combine, int index) {
-            if (index == candidates.length) {
+        public void dfs(int[] candidates, int target, List<List<Integer>> ans, List<Integer> combine, int depth) {
+            if (depth == candidates.length) {
                 return;
             }
             if (target == 0) {
@@ -26,11 +27,11 @@ public class lc39_CombinationSum {
                 return;
             }
             // 直接跳过
-            dfs(candidates, target, ans, combine, index + 1);
+            dfs(candidates, target, ans, combine, depth + 1);
             // 选择当前数
-            if (target - candidates[index] >= 0) {
-                combine.add(candidates[index]);
-                dfs(candidates, target - candidates[index], ans, combine, index);
+            if (target - candidates[depth] >= 0) {
+                combine.add(candidates[depth]);
+                dfs(candidates, target - candidates[depth], ans, combine, depth);
                 combine.remove(combine.size() - 1);
             }
         }

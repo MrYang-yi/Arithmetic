@@ -10,18 +10,7 @@ public class lc234_PalindromeLinkedList {
         System.out.println(solution.isPalindrome(ListNodeUtils.getListNodeByArray(new int[]{1, 2, 3, 2, 1})));
     }
 
-    
-
-    /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     * int val;
-     * ListNode next;
-     * ListNode() {}
-     * ListNode(int val) { this.val = val; }
-     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-     * }
-     */
+    //回文链表
     class Solution {
         public boolean isPalindrome(ListNode head) {
             List<Integer> list = new ArrayList<>();
@@ -41,7 +30,5 @@ public class lc234_PalindromeLinkedList {
             return true;
         }
     }
-
-
 }
 

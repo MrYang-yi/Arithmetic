@@ -8,6 +8,7 @@ public class lc169_MajorityElement_Map {
         System.out.println(solution.majorityElement(new int[]{2, 2, 1, 1, 1, 2, 2}));
     }
 
+    //多数元素
     class Solution {
         public int majorityElement(int[] nums) {
             HashMap<Integer, Integer> map = new HashMap<>();

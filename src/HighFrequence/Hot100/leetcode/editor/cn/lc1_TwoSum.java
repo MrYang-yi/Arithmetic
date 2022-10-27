@@ -10,7 +10,7 @@ public class lc1_TwoSum {
         Arrays.asList(array).forEach(System.out::println);
     }
 
-    
+    // 两数之和
     class Solution {
         public int[] twoSum(int[] nums, int target) {
             HashMap<Integer, Integer> map = new HashMap<>();

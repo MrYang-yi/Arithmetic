@@ -8,7 +8,7 @@ public class lc3_LongestSubstringWithoutRepeatingCharacters {
         System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
     }
 
-    
+    //无重复字符的最长子串
     class Solution {
         public int lengthOfLongestSubstring(String s) {
             HashMap<Character, Integer> map = new HashMap<>();
@@ -26,6 +26,4 @@ public class lc3_LongestSubstringWithoutRepeatingCharacters {
             return maxValue;
         }
     }
-
-
 }

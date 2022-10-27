@@ -1,6 +1,5 @@
 package HighFrequence.Hot100.leetcode.editor.cn;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
@@ -11,7 +10,7 @@ public class lc20_ValidParentheses {
         System.out.println(solution.isValid("()[]{}"));
     }
 
-    
+    //有效的括号
     class Solution {
         public boolean isValid(String s) {
             Map<Character, Character> map = new HashMap<>();
@@ -32,6 +31,4 @@ public class lc20_ValidParentheses {
             return stack.isEmpty();
         }
     }
-
-
 }

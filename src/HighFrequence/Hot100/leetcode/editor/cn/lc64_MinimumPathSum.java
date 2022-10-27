@@ -6,6 +6,7 @@ public class lc64_MinimumPathSum {
         System.out.println(solution.minPathSum(new int[][]{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}}));
     }
 
+    //最小路径和
     class Solution {
         public int minPathSum(int[][] grid) {
             for (int i = 0; i < grid.length; i++) {

@@ -11,7 +11,7 @@ public class lc11_ContainerWithMostWater {
      * 宽 = end - start ; 长 = min (heigth[start],height[end])
      * 即谁的高度更矮 谁去移动
      */
-
+//盛最多水的容器
     class Solution {
         public int maxArea(int[] height) {
             int start = 0;

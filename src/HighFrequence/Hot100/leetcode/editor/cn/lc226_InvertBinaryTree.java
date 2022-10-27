@@ -16,9 +16,9 @@ public class lc226_InvertBinaryTree {
         node4.left = node5;
         node4.right = node6;
         TreeNodeUtils.sout(solution.invertTree(root));
-
     }
 
+    //翻转二叉树
     class Solution {
         public TreeNode invertTree(TreeNode root) {
             if (root == null) {
@@ -31,5 +31,4 @@ public class lc226_InvertBinaryTree {
             return root;
         }
     }
-
 }
