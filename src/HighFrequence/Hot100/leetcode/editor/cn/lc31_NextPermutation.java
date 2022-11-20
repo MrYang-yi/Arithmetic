@@ -22,7 +22,6 @@ public class lc31_NextPermutation {
                         return;
                     }
                 }
-
             }
             Arrays.sort(nums);
         }

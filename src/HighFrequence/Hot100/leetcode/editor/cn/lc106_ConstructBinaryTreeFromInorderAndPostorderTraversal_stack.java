@@ -3,9 +3,9 @@ package HighFrequence.Hot100.leetcode.editor.cn;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class lc106_ConstructBinaryTreeFromInorderAndPostorderTraversal {
+public class lc106_ConstructBinaryTreeFromInorderAndPostorderTraversal_stack {
     public static void main(String[] args) {
-        Solution solution = new lc106_ConstructBinaryTreeFromInorderAndPostorderTraversal().new Solution();
+        Solution solution = new lc106_ConstructBinaryTreeFromInorderAndPostorderTraversal_stack().new Solution();
         //此处忽略，直接提交即可
     }
 

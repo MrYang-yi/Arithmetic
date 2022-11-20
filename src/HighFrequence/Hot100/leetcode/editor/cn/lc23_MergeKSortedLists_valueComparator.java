@@ -22,16 +22,6 @@ public class lc23_MergeKSortedLists_valueComparator {
  * 对List实现排序
  * 创造一个新链表，遍历加入即可
  */
-    /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     * int val;
-     * ListNode next;
-     * ListNode() {}
-     * ListNode(int val) { this.val = val; }
-     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-     * }
-     */
     class Solution {
         public ListNode mergeKLists(ListNode[] lists) {
             if (lists == null || lists.length == 0) {
@@ -62,6 +52,4 @@ public class lc23_MergeKSortedLists_valueComparator {
             }
         }
     }
-
-
 }

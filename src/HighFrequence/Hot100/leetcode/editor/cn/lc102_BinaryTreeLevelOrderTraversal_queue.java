@@ -5,12 +5,13 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class lc102_BinaryTreeLevelOrderTraversal {
+public class lc102_BinaryTreeLevelOrderTraversal_queue {
     public static void main(String[] args) {
-        Solution solution = new lc102_BinaryTreeLevelOrderTraversal().new Solution();
+        Solution solution = new lc102_BinaryTreeLevelOrderTraversal_queue().new Solution();
         //此处忽略，直接提交即可
     }
 
+    //二叉树的层序遍历
     class Solution {
         public List<List<Integer>> levelOrder(TreeNode root) {
             List<List<Integer>> list = new ArrayList<>();

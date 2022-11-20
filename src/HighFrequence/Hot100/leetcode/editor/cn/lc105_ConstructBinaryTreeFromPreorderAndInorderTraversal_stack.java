@@ -2,12 +2,13 @@ package HighFrequence.Hot100.leetcode.editor.cn;
 
 import java.util.Stack;
 
-public class lc105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
+public class lc105_ConstructBinaryTreeFromPreorderAndInorderTraversal_stack {
     public static void main(String[] args) {
-        Solution solution = new lc105_ConstructBinaryTreeFromPreorderAndInorderTraversal().new Solution();
+        Solution solution = new lc105_ConstructBinaryTreeFromPreorderAndInorderTraversal_stack().new Solution();
         //此处忽略，直接提交即可
     }
 
+    //从前序与中序遍历序列构造二叉树
     class Solution {
         public TreeNode buildTree(int[] preorder, int[] inorder) {
             if (preorder == null || preorder.length == 0) {
