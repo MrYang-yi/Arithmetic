@@ -410,6 +410,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc221_MaximalSquare.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc221_MaximalSquare.md" />
+              <option name="frontendQuestionId" value="leetcode.cn221" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc221_MaximalSquare.java" />
+              <option name="titleSlug" value="maximal-square" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc226_InvertBinaryTree.java">
           <value>
             <LeetcodeEditor>
@@ -454,6 +465,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc236_LowestCommonAncestorOfABinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc236_LowestCommonAncestorOfABinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode.cn236" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc236_LowestCommonAncestorOfABinaryTree.java" />
+              <option name="titleSlug" value="lowest-common-ancestor-of-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc238_ProductOfArrayExceptSelf.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc238_ProductOfArrayExceptSelf.md" />
+              <option name="frontendQuestionId" value="leetcode.cn238" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc238_ProductOfArrayExceptSelf.java" />
+              <option name="titleSlug" value="product-of-array-except-self" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc23_MergeKSortedLists.java">
           <value>
             <LeetcodeEditor>
@@ -462,6 +495,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc23_MergeKSortedLists.java" />
               <option name="titleSlug" value="merge-k-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc240_SearchA2dMatrixIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc240_SearchA2dMatrixIi.md" />
+              <option name="frontendQuestionId" value="leetcode.cn240" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc240_SearchA2dMatrixIi.java" />
+              <option name="titleSlug" value="search-a-2d-matrix-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -487,6 +531,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc279_PerfectSquares.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc279_PerfectSquares.md" />
+              <option name="frontendQuestionId" value="leetcode.cn279" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc279_PerfectSquares.java" />
+              <option name="titleSlug" value="perfect-squares" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc27_RemoveElement.java">
           <value>
             <LeetcodeEditor>
@@ -506,6 +561,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc283_MoveZeroes.java" />
               <option name="titleSlug" value="move-zeroes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc287_FindTheDuplicateNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc287_FindTheDuplicateNumber.md" />
+              <option name="frontendQuestionId" value="leetcode.cn287" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc287_FindTheDuplicateNumber.java" />
+              <option name="titleSlug" value="find-the-duplicate-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc300_LongestIncreasingSubsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc300_LongestIncreasingSubsequence.md" />
+              <option name="frontendQuestionId" value="leetcode.cn300" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc300_LongestIncreasingSubsequence.java" />
+              <option name="titleSlug" value="longest-increasing-subsequence" />
             </LeetcodeEditor>
           </value>
         </entry>
