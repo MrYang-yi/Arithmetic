@@ -586,6 +586,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc309_BestTimeToBuyAndSellStockWithCooldown.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc309_BestTimeToBuyAndSellStockWithCooldown.md" />
+              <option name="frontendQuestionId" value="leetcode.cn309" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc309_BestTimeToBuyAndSellStockWithCooldown.java" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock-with-cooldown" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc31_NextPermutation.java">
           <value>
             <LeetcodeEditor>
@@ -594,6 +605,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc31_NextPermutation.java" />
               <option name="titleSlug" value="next-permutation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc322_CoinChange.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc322_CoinChange.md" />
+              <option name="frontendQuestionId" value="leetcode.cn322" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc322_CoinChange.java" />
+              <option name="titleSlug" value="coin-change" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc337_HouseRobberIii.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc337_HouseRobberIii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn337" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc337_HouseRobberIii.java" />
+              <option name="titleSlug" value="house-robber-iii" />
             </LeetcodeEditor>
           </value>
         </entry>
