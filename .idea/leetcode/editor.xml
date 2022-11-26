@@ -652,6 +652,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc347_TopKFrequentElements.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc347_TopKFrequentElements.md" />
+              <option name="frontendQuestionId" value="leetcode.cn347" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc347_TopKFrequentElements.java" />
+              <option name="titleSlug" value="top-k-frequent-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc34_FindFirstAndLastPositionOfElementInSortedArray.java">
           <value>
             <LeetcodeEditor>
