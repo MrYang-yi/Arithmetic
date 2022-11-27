@@ -15,7 +15,7 @@ public class lc23_MergeKSortedLists_priorityQueue {
     /**
      * 最小堆，优先队列
      */
-//合并K个升序链表
+    //合并K个升序链表
     class Solution {
         public ListNode mergeKLists(ListNode[] lists) {
             if (lists == null || lists.length == 0) {

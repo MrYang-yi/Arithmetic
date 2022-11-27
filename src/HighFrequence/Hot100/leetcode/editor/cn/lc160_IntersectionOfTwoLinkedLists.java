@@ -24,7 +24,7 @@ public class lc160_IntersectionOfTwoLinkedLists {
      * B+A链: 7 8 9 3 4 5 1 2 3 4 5
      * 所以必有相交点
      */
-//相交链表
+    //相交链表
     public class Solution {
         public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
             if (headA == null || headB == null) {

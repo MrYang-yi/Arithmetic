@@ -9,6 +9,7 @@ public class lc347_TopKFrequentElements {
         System.out.println(Arrays.stream(solution.topKFrequent(new int[]{1, 1, 1, 2, 2, 3}, 2)).boxed().collect(Collectors.toList()));
     }
 
+    //前 K 个高频元素
     class Solution {
         public int[] topKFrequent(int[] nums, int k) {
             Map<Integer, Integer> map = new HashMap<>();
@@ -16,13 +17,11 @@ public class lc347_TopKFrequentElements {
                 map.put(num, map.getOrDefault(num, 0) + 1);
             }
             // int[] 的第一个元素代表数组的值，第二个元素代表了该值出现的次数
-            PriorityQueue<int[]> queue = new PriorityQueue<>((int[] m, int[] n) -> n[1] - m[1]);
-            for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-                queue.add(new int[]{entry.getKey(), entry.getValue()});
-            }
+            PriorityQueue<int[]> priorityQueue = new PriorityQueue<>((int[] m, int[] n) -> n[1] - m[1]);
+            map.forEach((x, y) -> priorityQueue.add(new int[]{x, y}));
             int[] ret = new int[k];
             for (int i = 0; i < k; ++i) {
-                ret[i] = queue.poll()[0];
+                ret[i] = priorityQueue.poll()[0];
             }
             return ret;
         }

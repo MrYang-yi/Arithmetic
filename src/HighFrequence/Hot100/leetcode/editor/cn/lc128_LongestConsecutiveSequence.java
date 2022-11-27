@@ -9,7 +9,7 @@ public class lc128_LongestConsecutiveSequence {
         System.out.println(solution.longestConsecutive(new int[]{100, 4, 200, 1, 3, 2}));
     }
 
-    //哈希表
+    //最长连续序列
     class Solution {
         public int longestConsecutive(int[] nums) {
             Set<Integer> set = new HashSet<>();

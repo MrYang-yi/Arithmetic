@@ -3,6 +3,7 @@ package HighFrequence.Hot100.leetcode.editor.cn;
 /**
  * 数组长度为 26，即小写英文字母的数量,布尔字段isEnd，表示该节点是否为字符串的结尾
  */
+//实现Trie (前缀树)
 public class lc208_ImplementTriePrefixTree {
     private lc208_ImplementTriePrefixTree[] children;
     private boolean isEnd;

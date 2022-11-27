@@ -2,6 +2,7 @@ package HighFrequence.Hot100.leetcode.editor.cn;
 
 import java.util.Stack;
 
+//最小栈
 public class lc155_MinStack {
     Stack<Integer> stack = new Stack<>();
     Stack<Integer> minStack = new Stack<>();
