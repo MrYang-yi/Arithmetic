@@ -113,6 +113,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc10_RegularExpressionMatching.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc10_RegularExpressionMatching.md" />
+              <option name="frontendQuestionId" value="leetcode.cn10" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc10_RegularExpressionMatching.java" />
+              <option name="titleSlug" value="regular-expression-matching" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc128_LongestConsecutiveSequence.java">
           <value>
             <LeetcodeEditor>
@@ -619,6 +630,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc32_LongestValidParentheses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc32_LongestValidParentheses.md" />
+              <option name="frontendQuestionId" value="leetcode.cn32" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc32_LongestValidParentheses.java" />
+              <option name="titleSlug" value="longest-valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc337_HouseRobberIii.java">
           <value>
             <LeetcodeEditor>
@@ -737,6 +759,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc416_PartitionEqualSubsetSum.java" />
               <option name="titleSlug" value="partition-equal-subset-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc42_TrappingRainWater.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc42_TrappingRainWater.md" />
+              <option name="frontendQuestionId" value="leetcode.cn42" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc42_TrappingRainWater.java" />
+              <option name="titleSlug" value="trapping-rain-water" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1216,10 +1249,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/HighFrequence/Hot100/leetcode/editor/cn/lc10_RegularExpressionMatching.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc10_RegularExpressionMatching.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc10_RegularExpressionMatching.md" />
               <option name="frontendQuestionId" value="leetcode.cn10" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/HighFrequence/Hot100/leetcode/editor/cn/lc10_RegularExpressionMatching.java" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc10_RegularExpressionMatching.java" />
               <option name="titleSlug" value="regular-expression-matching" />
             </LeetcodeEditor>
           </value>
@@ -1381,10 +1414,10 @@
         <entry key="$PROJECT_DIR$/src/LeetCode/editor/cn/[32]最长有效括号.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/LeetCode/editor/cn/doc/content/[32]最长有效括号.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/doc/content/lc32_LongestValidParentheses.md" />
               <option name="frontendQuestionId" value="leetcode.cn32" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/src/LeetCode/editor/cn/[32]最长有效括号.java" />
+              <option name="path" value="$PROJECT_DIR$/src/HighFrequence/Hot100/leetcode/editor/cn/lc32_LongestValidParentheses.java" />
               <option name="titleSlug" value="longest-valid-parentheses" />
             </LeetcodeEditor>
           </value>
