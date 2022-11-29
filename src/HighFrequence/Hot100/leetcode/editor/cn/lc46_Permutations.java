@@ -8,7 +8,7 @@ public class lc46_Permutations {
         Solution solution = new lc46_Permutations().new Solution();
         System.out.println(solution.permute(new int[]{1, 2, 3}));
     }
-
+    //回溯
     //全排列
     class Solution {
         public List<List<Integer>> permute(int[] nums) {

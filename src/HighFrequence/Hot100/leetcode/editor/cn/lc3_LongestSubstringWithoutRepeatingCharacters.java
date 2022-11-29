@@ -9,6 +9,7 @@ public class lc3_LongestSubstringWithoutRepeatingCharacters {
     }
 
     //无重复字符的最长子串
+    //最长不重复子串
     class Solution {
         public int lengthOfLongestSubstring(String s) {
             HashMap<Character, Integer> map = new HashMap<>();
