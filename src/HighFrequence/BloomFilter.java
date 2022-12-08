@@ -5,7 +5,7 @@ import java.util.BitSet;
 /**
  * 简单实现布隆过滤器
  */
-class BloomFileter {
+class BloomFilter {
 
     //使用加法hash算法，所以定义了一个8个元素的质数数组
     private static final int[] primes = new int[]{2, 3, 5, 7, 11, 13, 17, 19};
@@ -14,7 +14,7 @@ class BloomFileter {
     //创建一个长度为10亿的比特位
     private BitSet bits = new BitSet(256 << 22);  //2的30次方，2的8次方左移22位
 
-    public BloomFileter() {
+    public BloomFilter() {
         for (int i = 0; i < primes.length; i++) {
             //使用8个质数，创建八种算法
             hashList[i] = new Hash(primes[i]);
@@ -62,18 +62,18 @@ class BloomFileter {
 
     public static void main(String[] args) {
 
-        BloomFileter bloomFileter = new BloomFileter();
-        System.out.println(bloomFileter.contains("5324512515"));
-        bloomFileter.add("5324512515");
+        BloomFilter BloomFilter = new BloomFilter();
+        System.out.println(BloomFilter.contains("5324512515"));
+        BloomFilter.add("5324512515");
 
         //维护1亿个在线用户
         for (int i = 1; i < 100000000; i++) {
-            bloomFileter.add(String.valueOf(i));
+            BloomFilter.add(String.valueOf(i));
         }
 
         long begin = System.currentTimeMillis();
         System.out.println(begin);
-        System.out.println(bloomFileter.contains("5324512515"));
+        System.out.println(BloomFilter.contains("5324512515"));
         long end = System.currentTimeMillis();
         System.out.println(end);
         System.out.println("判断5324512515是否在线使用了:" + (begin - end));
